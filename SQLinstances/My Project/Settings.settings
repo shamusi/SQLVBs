@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="dbserver" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">DEUSDHEID00311</Value>
+      <Value Profile="(Default)">WK28</Value>
     </Setting>
     <Setting Name="databasename" Type="System.String" Scope="Application">
       <Value Profile="(Default)">SDODB_ServerEvidence</Value>
