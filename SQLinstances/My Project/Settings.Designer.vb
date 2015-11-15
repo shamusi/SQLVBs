@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("WK28")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("DEUSDHEID0031")>  _
         Public ReadOnly Property dbserver() As String
             Get
                 Return CType(Me("dbserver"),String)
