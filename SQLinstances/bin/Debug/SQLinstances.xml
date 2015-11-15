@@ -1,0 +1,198 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SQLinstances
+</name>
+</assembly>
+<members>
+<member name="M:SQLinstances.SQLInstances.SQLForm.#ctor">
+	<summary>
+ Default Form
+ </summary>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.showdata">
+	<summary>
+ Is Going To Populated DataGrid view with all data from database.
+ IT is also going to check if there is something wrong with ServiceReference Connection.
+ </summary>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.SQL_SQLStateChanged(System.Data.ConnectionState)">
+	<summary>
+ The SQL Database Connection has changed.
+ </summary>
+	<param name="State"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.Log(System.String)">
+	<summary>
+ Display Logging Messages to Admin
+ </summary>
+	<param name="Message"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.finddata(System.String)">
+	<summary>
+ Will Find data based on InstanceServerName in database
+ </summary>
+	<param name="InstanceServerName">String SQL Server Name</param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ Will delete selected row in DataGrid view.
+ You can remove the Instance. 
+ Should be reviewed since we want to have servers in evidence even when removed.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnUpdate_Click(System.Object,System.EventArgs)">
+	<summary>
+ This will update selected record, works only when EDIT button is pressed before.
+ Running UPDATE configuration upon database, be sure what row is currently selected in DATAGRID, otherwise you will update different server.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ This will populate data from datagrid view into form.
+ If Database Table will change you have to consider to change this data as well
+ Will probably require better solution for that.
+ Please link appropriate data with appropriate textboxes or other objects
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.chbNetApp_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Will check the status of checkbox and disable or enable two textboxes asking for NetApp info.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnInsert_Click(System.Object,System.EventArgs)">
+	<summary>
+ Will insert new SQL Server Instance into database
+ This is just simple INSERT operation, getting values from WINFORM textboxes and other objects.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.SQLForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Shows message when you close application.
+ 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnRefreshData_Click(System.Object,System.EventArgs)">
+	<summary>
+ Will manually refresh data in DataGrid view.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnSearchServer_Click(System.Object,System.EventArgs)">
+	<summary>
+ Will Search for Server name based on the value in textbox.
+ You can use wildcards for SQL Server %,? etc. To filter. LIKE is used.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.tbFindServer_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Is going to try to look for servername in the database. When enter keyboard button is pressed.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.dataGridView1_RowPostPaint(System.Object,System.Windows.Forms.DataGridViewRowPostPaintEventArgs)">
+	<summary>
+ Will Change the collors of rows based on some values in those collumns.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.dataGridView1_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ Doublicklick on row in datagrid view will open new form with Browser window and will open page related to SQL Server Instance
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.cleanForm">
+	<summary>
+ FUNCTION WHICH IS GOING TO CLEAR EVERYTHING WHAT IS ON THE WINFORM.
+ HAVE TO CROSSCHECK THE FUNCTIONALITY, TO AVOID DELETING SOME NECESSARY INFO.
+ </summary>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.btnClearForm_Click(System.Object,System.EventArgs)">
+	<summary>
+ Button which clears whole form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.chbSQLClustered_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Disable/Enable Form Objects whenever checkbox is checked or not.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.DataGridView1_DataError(System.Object,System.Windows.Forms.DataGridViewDataErrorEventArgs)">
+	<summary>
+ Handle DataGrid Errors
+ </summary>
+	<param name="sender"></param>
+	<param name="anError"></param>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.ValidateTheForm">
+	<summary>
+ Will try to validate form for empty data.
+ </summary>
+	<returns>Boolean</returns>
+</member><member name="M:SQLinstances.SQLInstances.SQLForm.dataGridView1_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Will Show Context Menu with Some required actions
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="T:SQLinstances.SQLInstances.SQLForm">
+	<summary>
+ Default Page
+ </summary>
+</member><member name="P:SQLinstances.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources._false">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources._in">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources._true">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources.database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources.database2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SQLinstances.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SQLinstances.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SQLinstances.SQLInstances.ViewDetailsForm.#ctor">
+	<summary>
+ Pops up with new WebPage View
+ </summary>
+</member><member name="M:SQLinstances.SQLInstances.ViewDetailsForm.Go(System.String)">
+	<summary>
+ Go to webpage ulr
+ </summary>
+	<param name="url">url address</param>
+</member><member name="T:SQLinstances.SQLInstances.ViewDetailsForm">
+	<summary>
+ Web Page Details Form
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,27 @@
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\bin\Debug\SQLinstances.exe
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\bin\Debug\SQLinstances.pdb
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\bin\Debug\SQLinstances.xml
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.Resources.resources
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.vbproj.GenerateResource.Cache
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.exe
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.xml
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.pdb
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\bin\Debug\SQLinstances.exe.config
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.EditSQLInstances.resources
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.SQLInstances.EditSQLInstances.resources
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.SQLInstances.SQLForm.resources
+C:\Users\administrator.VMTEST\AppData\Local\Temporary Projects\SQLinstances\obj\x86\Debug\SQLinstances.SQLInstances.LoginWindow.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\bin\Debug\SQLinstances.exe.config
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.exe
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.xml
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.pdb
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.Resources.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.vbproj.GenerateResource.Cache
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\bin\Debug\SQLinstances.exe
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\bin\Debug\SQLinstances.pdb
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\bin\Debug\SQLinstances.xml
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.SQLInstances.SQLForm.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.SQLInstances.ViewDetailsForm.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.EditSQLServers.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.SQLServerEvidence.resources
+C:\Users\administrator.VMTEST\documents\visual studio 2010\Projects\SQLinstances\SQLinstances\obj\x86\Debug\SQLinstances.Help.resources

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="dbserver" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WK28</Value>
+    </Setting>
+    <Setting Name="databasename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SDODB_ServerEvidence</Value>
+    </Setting>
+    <Setting Name="login" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SDODBWEBEDITOR</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Abc,123</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=wk28;Initial Catalog=SDODB_ServerEvidence;Integrated Security=SSPI;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
