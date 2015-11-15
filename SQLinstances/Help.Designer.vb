@@ -31,9 +31,9 @@ Partial Class Help
         Me.H1.AutoSize = True
         Me.H1.Location = New System.Drawing.Point(56, 44)
         Me.H1.Name = "H1"
-        Me.H1.Size = New System.Drawing.Size(227, 13)
+        Me.H1.Size = New System.Drawing.Size(224, 13)
         Me.H1.TabIndex = 0
-        Me.H1.Text = "About SQL DB server Evidence - version 1.05 "
+        Me.H1.Text = "About SQL DB server Evidence - version 1.06"
         '
         'H2
         '
