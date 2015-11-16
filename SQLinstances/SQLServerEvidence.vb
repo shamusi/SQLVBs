@@ -611,4 +611,8 @@ Public Class SQLServerEvidence
     Private Sub AboutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles AboutToolStripMenuItem.Click
         Help.Show()
     End Sub
+
+    Private Sub HelpToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles HelpToolStripMenuItem.Click
+
+    End Sub
 End Class
